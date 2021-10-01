@@ -23,7 +23,7 @@
                         </a-menu-item>
                         <a-menu-divider />
                         <a-menu-item key="3">
-                            Developers
+                            <a href="https://developers.mixin.one/">Developers</a>
                         </a-menu-item>
                         </a-menu>
                     </a-dropdown>
@@ -32,11 +32,12 @@
 
                 <div class="nav-title">
                     <h1>Secure digital assets and messages on Mixin</h1>
-                    <p>
+                    <div class="p">We build open source software that always puts security, privacy and decentralization first.</div>
+                    <!-- <p>
                         <span>We build open source software</span>
                         <span>that always puts security, privacy</span>
                         <span> and decentralization first.</span>
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </header>
@@ -103,16 +104,20 @@ nav .nav-list .ant-dropdown-link {
     position: absolute;
     top: 40%;
     left: 20%;
-       
+    
 }
 .nav-title h1{
     font-size: 40px;
     color: aliceblue;
 }
 
-.nav-title p {
+.nav-title .p {
     color: aliceblue;
     font-size: 16px;
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    left: 30%;
 }
 
 </style>
