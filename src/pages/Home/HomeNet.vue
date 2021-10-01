@@ -15,7 +15,7 @@
 </script>
 
 <style>
-.home-test{
+.home-net{
     text-align: center;
 }
 </style>
