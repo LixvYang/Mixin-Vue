@@ -1,12 +1,10 @@
 <template>
     <div>
-        <header>
-            <h1>
-                <span>
-                    <!-- HomeNet -->
-                </span>
-            </h1>
-        </header>
+        <section class="home-net">
+            <h1>Mixin Network</h1>
+            <p>A free, lightning fast and decentralized network for transferring digital assets.</p>
+            
+        </section>
     </div>
 </template>
     
@@ -17,5 +15,7 @@
 </script>
 
 <style>
-
+.home-test{
+    text-align: center;
+}
 </style>

@@ -1,11 +1,13 @@
 <template>
     <div>
-        
         <header class="homemain">
-            <img class="home-background" src="../../assets/Home/home.jpg"><img>
+            <div class="home-background" :style=backgroundImg>
+
+            </div>
+            <img class="nav-logo" src="../../assets/Home/homewhite.png">
+            
             <div>
                 <nav>
-                    <img class="nav-logo" src="../../assets/Home/homewhite.png">
                     <div class="nav-list">
                         <img src="../../assets/Home/nav-list.png">
                         <a-dropdown :trigger="['click']">
@@ -14,7 +16,7 @@
                         </a>
                         <a-menu slot="overlay">
                         <a-menu-item key="0">
-                            <a href="http://www.alipay.com/">Mixin Network</a>
+                            <a href="/about">Mixin Network</a>
                         </a-menu-item>
                         <a-menu-item key="1">
                             <a href="http://www.taobao.com/">Mixin Messager</a>
@@ -66,12 +68,13 @@
     width: 100%;
     height: 618px;
     object-fit: cover;
-    position: absolute;
+    position: relative;
     top: 0%;
     left: 0%;
     z-index: -1;
-    background-color: #366bd5;
-    background-size: contain;
+    /* background-color: #366bd5; */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav{
@@ -79,15 +82,17 @@ nav{
 }
 
 .nav-logo{
-    margin: 10px 40px 0 40px;
+    position: absolute;
+    top: 4%;
+    right: 76%; 
+    /* bottom: 80%;
+    left: 75%;  */
 }
 
 .nav-list {
     position: absolute;
     top: 5%;
-    right: 25%;
-    bottom: 80%;
-    left: 75%;
+    left: 80%;
 }
 
 nav .nav-list .ant-dropdown-link {
