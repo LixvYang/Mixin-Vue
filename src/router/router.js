@@ -1,7 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../pages/Home.vue";
-import Snapshots from "../pages/Snapshots/Snapshots.vue"
+import Home from "../components/Home.vue";
+import Snapshots from "../components/Snapshots/Snapshots.vue"
+import Pages from "../components/Pages/Pages"
+import Privacy from "../components/Pages/Privacy"
 
 Vue.use(VueRouter);
 
@@ -20,6 +22,18 @@ const routes = [
       path:"/snapshots",
       name: "Snapshots",
       component: Snapshots,
+  },
+  {
+    path:"/pages",
+    component:Pages,
+    children: [
+      {
+        path:"/pages/privacy",
+        name:"privacy",
+        component:Privacy,
+      }
+
+    ]
   }
 ];
 
