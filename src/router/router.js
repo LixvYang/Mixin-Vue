@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../pages/Home.vue";
+import Snapshots from "../pages/Snapshots/Snapshots.vue"
 
 Vue.use(VueRouter);
 
@@ -14,6 +15,11 @@ const routes = [
       path:"/home",
       name: "Home",
       component: Home,
+  },
+  {
+      path:"/snapshots",
+      name: "Snapshots",
+      component: Snapshots,
   }
 ];
 

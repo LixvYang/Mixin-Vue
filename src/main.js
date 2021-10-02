@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router/router'
 import store from "./store"
 import AOS from 'aos'
-import { Dropdown,Menu,Icon } from "ant-design-vue";
+import { Dropdown,Menu,Icon,Layout } from "ant-design-vue";
 import 'aos/dist/aos.css'
 
 Vue.config.productionTip = false
@@ -11,6 +11,7 @@ Vue.config.productionTip = false
 Vue.use(Dropdown)
 Vue.use(Menu)
 Vue.use(Icon)
+Vue.use(Layout)
 
 new Vue({
   router,
