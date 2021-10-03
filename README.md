@@ -1,4 +1,7 @@
-# mixin-vue
+# My Own Toy
+The Mixin official page from [here](https://mixin.one).
+
+Do this to check my vue skill.
 
 ## Project setup
 ```
@@ -23,4 +26,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-MIT LICENSE
+## Disclaimer
+If this project hurts your rights, please contact [me](https://www.zhihu.com/people/li-xin-32-2).
+
+# MIT LICENSE
