@@ -4,6 +4,8 @@ import Home from "../components/Home.vue";
 import Snapshots from "../components/Snapshots/Snapshots.vue"
 import Pages from "../components/Pages/Pages"
 import Privacy from "../components/Pages/Privacy"
+import Terms from "../components/Pages/Terms"
+import Jobs from "../components/Jobs/Jobs"
 
 Vue.use(VueRouter);
 
@@ -31,6 +33,16 @@ const routes = [
         path:"/pages/privacy",
         name:"privacy",
         component:Privacy,
+      },
+      {
+        path:"/pages/terms",
+        name:"terms",
+        component:Terms,
+      },
+      {
+        path:"/jobs",
+        name:"jobs",
+        component:Jobs,
       }
 
     ]

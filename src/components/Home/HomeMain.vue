@@ -16,10 +16,10 @@
                         </a>
                         <a-menu slot="overlay">
                         <a-menu-item key="0">
-                            <a href="/about">Mixin Network</a>
+                            <a href="/snapshots">Mixin Network</a>
                         </a-menu-item>
                         <a-menu-item key="1">
-                            <a href="http://www.taobao.com/">Mixin Messager</a>
+                            <a href="https://mixin.one/">Mixin Messager</a>
                         </a-menu-item>
                         <a-menu-divider />
                         <a-menu-item key="3">

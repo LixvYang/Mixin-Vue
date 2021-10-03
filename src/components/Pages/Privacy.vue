@@ -3,6 +3,7 @@
         <h1 class="privacy-h1">Mixin Privacy Policy</h1>
         
         <div class="privacy-content">
+            <hr>
             <p>Mixin provides messaging, transferring cryptocurrencies, and other services to users around the world. Our Privacy Policy helps explain our information (including message) practices. For example, we talk about what information we collect and how this affects you. We also explain the steps we take to protect your privacy – like building Mixin so delivered messages aren't stored and giving you control over who you communicate with on our Services.</p>
             <p>When we say "Mixin," "our," "we," or "us," we're talking about Mixin Limited. This Privacy Policy ("Privacy Policy") applies to all of our apps, services, features, software, and website (together, "Services") unless specified otherwise.</p>
             <p>Please also read Mixin's Terms of Service ("Terms"), which describes the terms under which you use our Services.</p>
@@ -49,9 +50,8 @@ export default {
 <style>
 .privacy .privacy-h1 {
     text-align: center;
-    position: absolute;
-    top: 5%;
-    left: 40%;
+    position: relative;
+    padding: 20px;
 }
 
 .privacy .privacy-content {
